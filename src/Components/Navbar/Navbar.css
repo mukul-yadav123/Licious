@@ -1,0 +1,119 @@
+.header
+{
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+}
+.container
+{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+    z-index: 1;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    background: #fff;
+    position: relative;
+    left: -5px;
+    height: 80px;
+    gap: 38px;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+nav img{
+    height: 52px;
+    aspect-ratio: auto 100.74 / 52;
+    width: 100.74px;
+}
+.location
+{
+    display: flex;
+    max-width: 200px;
+    cursor: pointer;
+    line-height: 1.5;
+}
+#location_icon{
+    margin: 4px 6px 0 0;
+    height: 16px;
+    width: 16px;
+    aspect-ratio: auto 12 / 6;
+}
+.current_location
+{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+.current_location img{
+    width: 12px;
+    height: 6px;
+}
+.city
+{
+    font-size: 16px;
+    color: #0d0d0e;
+    line-height: 25px;
+    margin-right: 8px;
+    font-weight: 400;
+}
+.location_name
+{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color: #0d0d0e;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.search_bar{
+    display: flex;
+    position: relative;
+    width: 30%;
+    overflow: none;
+}
+.search_bar:hover{
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.search_bar img{
+    width: 20px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    height: 36px;
+    width: 30px;
+}
+.search_bar input{
+    height: 33px;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    background: #f8f8f8;
+    width: 100%;
+    font-family: Lato Regular,sans-serif;
+    color: rgba(0,0,0,.6);
+    padding: 6px 12px;
+    position: relative;
+    cursor: pointer;
+}
+.search_bar input::placeholder
+{
+    font-size: 14px;
+    color: rgba(0,0,0,.302);
+    font-family: 'Lato ', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.containers_section
+{
+    display: flex;
+    gap: 40px;
+}

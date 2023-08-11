@@ -1,0 +1,58 @@
+.popular-container
+{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.popular-maintitle
+{
+    font-weight: 800;
+    font-size: 14px;
+}
+.popular-title
+{
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    color: #000;
+    cursor: pointer;
+}
+
+.items-container
+{
+    display: flex;
+    line-height: 20px;
+    flex-wrap: wrap;
+}
+.item-container p{
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    color: #000;
+    cursor: pointer;
+}
+.slash
+{
+    padding: 0 5px;
+    font-weight: 600;
+}
+
+.spread-item::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    transform: scale(0,1);
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-in ;
+}
+.spread-item:hover::after{
+    transform: scale(1);
+}

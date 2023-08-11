@@ -1,0 +1,11 @@
+.fresh_container
+{
+    display: flex;
+    gap: 1.25rem;
+}
+.fresh
+{
+    min-width: calc((100% - 5rem)/4.65);
+    max-width: calc((100% - 5rem)/4.65);
+    border-radius: 12px;
+}

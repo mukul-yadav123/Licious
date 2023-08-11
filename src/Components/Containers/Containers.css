@@ -1,0 +1,13 @@
+.small_container{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    color: #000;
+}
+.small_container p{
+    font-size: 14px;
+    color: #0d0d0e;
+    line-height: 22px;
+    top: 2px;
+    
+}

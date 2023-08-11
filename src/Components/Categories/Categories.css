@@ -1,0 +1,36 @@
+.shopByCategories{
+    min-width: calc((100% - 2.5rem)/4.7);
+    max-width: 100%;
+    margin: 24px 0;
+}
+.category{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 16px 3vw;
+}
+.food_category{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 122px;
+}
+.header_titles{
+    margin-bottom: 1.25rem;
+}
+.img_category
+{
+    width: 100%;
+    aspect-ratio: 1;
+}
+.food_category img
+{
+    width: 100%;
+}
+.food_category p{
+    text-align: center;
+    display: block;
+    margin-top: 0.25rem;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
